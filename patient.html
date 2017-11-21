@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Php Database Tutorial</title>
+</head>
+<body>
+
+<?php
+
+$did=$_GET['did'];
+<form action="insert.php?did={$did}" method="post">
+Name : <input type="text" name="name">
+<br/>
+phone number : <input type="number" name="phonenumber">
+<br/>
+<input type="submit" value="insert">
+
+ 
+</form>
+?>
+
+</body>
+</html>
